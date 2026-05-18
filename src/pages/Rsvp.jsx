@@ -75,6 +75,7 @@ export default function Rsvp() {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
+          netlify
         >
           {/* Required hidden inputs for Netlify */}
           <input type="hidden" name="form-name" value="rsvp" />
@@ -139,19 +140,6 @@ export default function Rsvp() {
 
           {form.attending === "yes" && (
             <>
-              <div className="field">
-                <label htmlFor="guests">Number of guests</label>
-                <input
-                  id="guests"
-                  name="guests"
-                  type="number"
-                  min="1"
-                  max="4"
-                  value={form.guests}
-                  onChange={update("guests")}
-                />
-              </div>
-
               <div className="field">
                 <label htmlFor="dietary">Dietary requirements</label>
                 <input

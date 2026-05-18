@@ -1,33 +1,25 @@
-import { Link } from 'react-router-dom'
-import Flourish from '../components/Flourish.jsx'
+import { Link } from "react-router-dom";
 
 export default function Invitation() {
   return (
-    <main className="page">
-      <div className="stage stagger">
-        <p className="eyebrow">
-          You are invited <span className="dot" /> 22 · 08 · 2026
-        </p>
+    <main className="hero hero--with-bg">
+      <div className="hero-center">
+        <h2 className="hero-names">
+          <span className="name">Sara</span>
+          <span className="amp">&amp;</span>
+          <span className="name">Beau</span>
+        </h2>
+      </div>
 
-        <h1 className="names">
-          Beau <span className="amp">&amp;</span> Sara
-        </h1>
+      <div className="hero-footer">
+        <p className="hero-meta left">August 22, 2026</p>
 
-        <Flourish />
+        <Link to="/rsvp" className="rsvp-pill">
+          RSVP
+        </Link>
 
-        <p className="lede">
-          Together with our families, we joyfully invite you to celebrate
-          the beginning of our forever.
-        </p>
-
-        <div className="choices">
-          <Link to="/rsvp" className="btn primary">
-            Respond
-          </Link>
-        </div>
-
-        <p className="footer-mark">— kindly reply by 22 July 2026 —</p>
+        <p className="hero-meta right">Pyrmont &amp; North Sydney</p>
       </div>
     </main>
-  )
+  );
 }
