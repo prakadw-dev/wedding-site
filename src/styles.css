@@ -201,6 +201,19 @@ body::after {
 
 /* === SHARED INNER PAGES (RSVP / Details / Farewell) === */
 
+.rsvp-note {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--burgundy-soft);
+  max-width: 34ch;
+  margin: 0 auto 2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
 .page {
   position: relative;
   z-index: 3;

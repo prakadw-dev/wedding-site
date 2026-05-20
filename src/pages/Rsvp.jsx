@@ -68,6 +68,11 @@ export default function Rsvp() {
 
         <Flourish />
 
+        <p className="rsvp-note">
+          This invitation is extended to those named in the address. We kindly
+          ask that only invited guests RSVP.
+        </p>
+
         <form
           className="form"
           name="rsvp"
