@@ -32,14 +32,14 @@ export default function Farewell() {
               streaming our ceremony live.{" "}
               <a
                 className="detail-link"
-                href="https://instagram.com/your-handle"
+                href="https://youtube.com/live/4p64dMyzivs?feature=share"
                 target="_blank"
                 rel="noreferrer"
               >
                 Tune in here →
               </a>
               <br />
-              Saturday, 22 August 2026 · from 3:00pm AEST
+              Saturday, 22 August 2026 · from 2:45pm AEST
             </span>
           </div>
 
