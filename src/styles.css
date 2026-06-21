@@ -147,9 +147,10 @@ body::after {
 
 .hero-meta {
   font-family: var(--serif);
-  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-size: clamp(1.4rem, 3vw, 2rem);
   color: var(--burgundy);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .hero-meta.left {

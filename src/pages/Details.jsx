@@ -124,6 +124,14 @@ export default function Details() {
               to celebrate with you.
             </span>
           </div>
+          <div className="detail-item">
+            <span className="detail-label">What happens next</span>
+            <span className="detail-value">Full details on the way</span>
+            <span className="detail-sub">
+              A copy of these details, along with anything else you'll need for
+              the day, will be sent to your email within 48 hours.
+            </span>
+          </div>
         </div>
         <p className="footer-mark">— Beau &amp; Sara —</p>
       </div>

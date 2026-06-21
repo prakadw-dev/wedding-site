@@ -59,6 +59,14 @@ export default function Farewell() {
               </a>
             </span>
           </div>
+          <div className="detail-item">
+            <span className="detail-label">A note from us</span>
+            <span className="detail-value">We'll be in touch</span>
+            <span className="detail-sub">
+              A note of thanks, along with the live stream link, will be sent to
+              your email within 48 hours.
+            </span>
+          </div>
         </div>
 
         <p className="footer-mark">— with all our love, Beau &amp; Sara —</p>
