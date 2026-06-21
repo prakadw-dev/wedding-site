@@ -81,14 +81,15 @@ export default function Details() {
             <span className="detail-label">Gifts &amp; Registry</span>
             <span className="detail-value">Your presence is the gift</span>
             <span className="detail-sub">
-              If you’d like to contribute to our next chapter,{" "}
+              But, if you wish to give more, our registry includes a few things
+              for our home and a fund toward our future honeymoon.{" "}
               <a
                 className="detail-link"
                 href="https://www.myregistry.com/wedding-registry/sara-d-and-beau-i-st-leonards-new-south-wales/5450039"
                 target="_blank"
                 rel="noreferrer"
               >
-                visit our registry →
+                Visit our registry →
               </a>
             </span>
           </div>
